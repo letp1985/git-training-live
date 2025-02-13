@@ -8,13 +8,6 @@ def test_hello_world():
     """
     assert hello_world() == "Hello World"
 
-def test_hello_world():
-    """
-    This function tests the hello_world function
-    :return:  "Hello World"
-    """
-    assert hello_world() == "Hello Worlds"
-
 @pytest.mark.parametrize("a, b, expected", [
     (1, 2, 3),
     (-1, 1, 0),
